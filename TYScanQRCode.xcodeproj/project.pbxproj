@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D1F90702448787F0063FA10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F906F2448787F0063FA10 /* AppDelegate.m */; };
+		3D1F90732448787F0063FA10 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F90722448787F0063FA10 /* SceneDelegate.m */; };
+		3D1F90762448787F0063FA10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F90752448787F0063FA10 /* ViewController.m */; };
+		3D1F90792448787F0063FA10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F90772448787F0063FA10 /* Main.storyboard */; };
+		3D1F907B244878830063FA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F907A244878830063FA10 /* Assets.xcassets */; };
+		3D1F907E244878830063FA10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F907C244878830063FA10 /* LaunchScreen.storyboard */; };
+		3D1F9081244878830063FA10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F9080244878830063FA10 /* main.m */; };
+		3D1F908924487BAB0063FA10 /* TYScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1F908824487BAB0063FA10 /* TYScanManager.m */; };
+		3D1F908B24487E940063FA10 /* Elastic_Done3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3D1F908A24487E940063FA10 /* Elastic_Done3.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D1F906B2448787F0063FA10 /* TYScanQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYScanQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1F906E2448787F0063FA10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D1F906F2448787F0063FA10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D1F90712448787F0063FA10 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		3D1F90722448787F0063FA10 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		3D1F90742448787F0063FA10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D1F90752448787F0063FA10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D1F90782448787F0063FA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1F907A244878830063FA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1F907D244878830063FA10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D1F907F244878830063FA10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1F9080244878830063FA10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D1F908724487BAB0063FA10 /* TYScanManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYScanManager.h; sourceTree = "<group>"; };
+		3D1F908824487BAB0063FA10 /* TYScanManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYScanManager.m; sourceTree = "<group>"; };
+		3D1F908A24487E940063FA10 /* Elastic_Done3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Elastic_Done3.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1F90682448787F0063FA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1F90622448787F0063FA10 = {
+			isa = PBXGroup;
+			children = (
+				3D1F906D2448787F0063FA10 /* TYScanQRCode */,
+				3D1F906C2448787F0063FA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1F906C2448787F0063FA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1F906B2448787F0063FA10 /* TYScanQRCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1F906D2448787F0063FA10 /* TYScanQRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3D1F906E2448787F0063FA10 /* AppDelegate.h */,
+				3D1F906F2448787F0063FA10 /* AppDelegate.m */,
+				3D1F90712448787F0063FA10 /* SceneDelegate.h */,
+				3D1F90722448787F0063FA10 /* SceneDelegate.m */,
+				3D1F90742448787F0063FA10 /* ViewController.h */,
+				3D1F90752448787F0063FA10 /* ViewController.m */,
+				3D1F908724487BAB0063FA10 /* TYScanManager.h */,
+				3D1F908824487BAB0063FA10 /* TYScanManager.m */,
+				3D1F908A24487E940063FA10 /* Elastic_Done3.wav */,
+				3D1F90772448787F0063FA10 /* Main.storyboard */,
+				3D1F907A244878830063FA10 /* Assets.xcassets */,
+				3D1F907C244878830063FA10 /* LaunchScreen.storyboard */,
+				3D1F907F244878830063FA10 /* Info.plist */,
+				3D1F9080244878830063FA10 /* main.m */,
+			);
+			path = TYScanQRCode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1F906A2448787F0063FA10 /* TYScanQRCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1F9084244878830063FA10 /* Build configuration list for PBXNativeTarget "TYScanQRCode" */;
+			buildPhases = (
+				3D1F90672448787F0063FA10 /* Sources */,
+				3D1F90682448787F0063FA10 /* Frameworks */,
+				3D1F90692448787F0063FA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYScanQRCode;
+			productName = TYScanQRCode;
+			productReference = 3D1F906B2448787F0063FA10 /* TYScanQRCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1F90632448787F0063FA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "轻舔指尖";
+				TargetAttributes = {
+					3D1F906A2448787F0063FA10 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 3D1F90662448787F0063FA10 /* Build configuration list for PBXProject "TYScanQRCode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1F90622448787F0063FA10;
+			productRefGroup = 3D1F906C2448787F0063FA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1F906A2448787F0063FA10 /* TYScanQRCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1F90692448787F0063FA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1F907E244878830063FA10 /* LaunchScreen.storyboard in Resources */,
+				3D1F907B244878830063FA10 /* Assets.xcassets in Resources */,
+				3D1F908B24487E940063FA10 /* Elastic_Done3.wav in Resources */,
+				3D1F90792448787F0063FA10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1F90672448787F0063FA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1F90762448787F0063FA10 /* ViewController.m in Sources */,
+				3D1F90702448787F0063FA10 /* AppDelegate.m in Sources */,
+				3D1F9081244878830063FA10 /* main.m in Sources */,
+				3D1F90732448787F0063FA10 /* SceneDelegate.m in Sources */,
+				3D1F908924487BAB0063FA10 /* TYScanManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D1F90772448787F0063FA10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1F90782448787F0063FA10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D1F907C244878830063FA10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1F907D244878830063FA10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1F9082244878830063FA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D1F9083244878830063FA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1F9085244878830063FA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QY89R86Q5S;
+				INFOPLIST_FILE = TYScanQRCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianyu.demo.TYScanQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3D1F9086244878830063FA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QY89R86Q5S;
+				INFOPLIST_FILE = TYScanQRCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tianyu.demo.TYScanQRCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1F90662448787F0063FA10 /* Build configuration list for PBXProject "TYScanQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1F9082244878830063FA10 /* Debug */,
+				3D1F9083244878830063FA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1F9084244878830063FA10 /* Build configuration list for PBXNativeTarget "TYScanQRCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1F9085244878830063FA10 /* Debug */,
+				3D1F9086244878830063FA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1F90632448787F0063FA10 /* Project object */;
+}
